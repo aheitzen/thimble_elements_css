@@ -1,0 +1,41 @@
+:root {
+	--body-color: black;
+	--accent-color: red;
+	--primary-color: #66ccff;
+	--secondary-color: yellow;
+	--font-size: 375px;
+	--text-size: 30px;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+}
+
+i.fa.fa-heart {
+	color: var(--accent-color);
+	font-size: var(--font-size);
+}
+
+i.fa.fa-star {
+	color: var(--secondary-color);
+	font-size: var(--font-size);
+}
+
+i.fa.fa-snowflake-o {
+	color: var(--primary-color);
+	font-size: var(--font-size);
+}
+
+i.fa.fa-tree {
+	color: #00b33c;
+	font-size: var(--font-size);
+}
+
+h1.text-center.h1 {
+	color: white;
+	font-size: var(--text-size);
+	margin-top: 30px;
+}
